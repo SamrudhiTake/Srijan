@@ -55,7 +55,7 @@ export default function Footer() {
                 </a>
 
                 {/* PLACEHOLDER: Replace LinkedIn URL in src/data/events.js */}
-                <a
+                {/* <a
                   href={siteConfig.socials.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ export default function Footer() {
                   className="w-9 h-9 rounded-lg bg-space-900 border border-white/10 hover:border-amber-400/50 hover:text-amber-400 flex items-center justify-center text-slate-400 transition-colors"
                 >
                   <Linkedin className="w-4 h-4" />
-                </a>
+                </a> */}
 
                 {/* PLACEHOLDER: Replace Email in src/data/events.js */}
                 <a

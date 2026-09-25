@@ -10,9 +10,9 @@ export default function EventsPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="SRIJAN 2026 COMPETITIONS"
-          title="All Five"
+          title="All Six"
           highlight="Flagship Events"
-          subtitle="Explore the 5 core competitions of Srijan. Review guidelines, download brochures, and proceed to official Google Form registration."
+          subtitle="Explore the 6 core competitions of Srijan. Review guidelines, download brochures, and proceed to official Google Form registration."
         />
 
         <EventGrid events={events} />

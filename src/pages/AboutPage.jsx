@@ -49,13 +49,13 @@ export default function AboutPage() {
         </div>
 
         {/* Technical Flow: IDEA → BUILD → COMPETE → CREATE */}
-        <div className="my-16">
+        {/* <div className="my-16">
           <TechFlow />
-        </div>
+        </div> */}
       </div>
 
       {/* Why Srijan Highlights */}
-      <WhySrijan />
+      {/* <WhySrijan /> */}
 
       {/* Conversion CTA */}
       <CTASection />

@@ -35,7 +35,7 @@ export const events = [
   brochure: "/brochures/event-1.pdf",
   brochureAvailable: false,
 
-  registrationUrl: "YOUR_GOOGLE_FORM_LINK",
+  registrationUrl: "https://forms.gle/8LBBSBz2yqJVDvKT9",
 
   date: "To be announced",
   venue: "To be announced",
@@ -108,7 +108,7 @@ export const events = [
   brochureAvailable: false,
 
   /* GOOGLE FORM: Replace with your actual Google Form link */
-  registrationUrl: "YOUR_GOOGLE_FORM_LINK",
+  registrationUrl: "https://forms.gle/8LBBSBz2yqJVDvKT9",
 
   date: "To be announced",
   venue: "To be announced",
@@ -181,7 +181,7 @@ export const events = [
   brochureAvailable: false,
 
   /* GOOGLE FORM: Replace with your actual Google Form link */
-  registrationUrl: "YOUR_GOOGLE_FORM_LINK",
+  registrationUrl: "https://forms.gle/8LBBSBz2yqJVDvKT9",
 
   date: "To be announced",
   venue: "To be announced",
@@ -255,7 +255,7 @@ export const events = [
   brochureAvailable: false,
 
   /* GOOGLE FORM: Replace with your actual Google Form link */
-  registrationUrl: "YOUR_GOOGLE_FORM_LINK",
+  registrationUrl: "https://forms.gle/8LBBSBz2yqJVDvKT9",
 
   date: "To be announced",
   venue: "To be announced",
@@ -329,7 +329,7 @@ export const events = [
   brochureAvailable: false,
 
   /* GOOGLE FORM: Replace with your actual Google Form link */
-  registrationUrl: "YOUR_GOOGLE_FORM_LINK",
+  registrationUrl: "https://forms.gle/8LBBSBz2yqJVDvKT9",
 
   date: "To be announced",
   venue: "To be announced",
@@ -408,7 +408,7 @@ export const events = [
   brochureAvailable: false,
 
   /* GOOGLE FORM: Replace with your actual Google Form link */
-  registrationUrl: "YOUR_GOOGLE_FORM_LINK",
+  registrationUrl: "https://forms.gle/8LBBSBz2yqJVDvKT9",
 
   date: "To be announced",
   venue: "To be announced",
@@ -516,8 +516,8 @@ export const siteConfig = {
   collegeName: "College Technical Festival",
   contactEmail: "srijan.fest@college.edu", // PLACEHOLDER EMAIL
   socials: {
-    instagram: "https://instagram.com/srijan_techfest", // PLACEHOLDER INSTAGRAM
-    linkedin: "https://linkedin.com/company/srijan-techfest", // PLACEHOLDER LINKEDIN
+    instagram: "https://www.instagram.com/srijan_gcoea?stkn=OTg3M2RkYXZxOHUx", // PLACEHOLDER INSTAGRAM
+    //linkedin: "https://linkedin.com/company/srijan-techfest", // PLACEHOLDER LINKEDIN
     email: "mailto:srijan.fest@college.edu" // PLACEHOLDER EMAIL LINK
   }
 };
