@@ -104,13 +104,13 @@ export default function EventCard({ event, onOpenBrochure }) {
         </div>
 
         {/* Prominent Register Button */}
-        <button
-          onClick={handleRegisterClick}
+        <Link
+          to={`/register/${event.id}`}
           className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-400 hover:to-orange-500 shadow-md shadow-orange-500/20 hover:shadow-orange-500/35 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400"
         >
           <span>Register Now</span>
-          <ExternalLink className="w-3.5 h-3.5" />
-        </button>
+          <ArrowRight className="w-3.5 h-3.5" />
+        </Link>
       </div>
     </div>
   );

@@ -60,15 +60,14 @@ export default function BrochureModal({ isOpen, onClose, event }) {
           >
             Close
           </button>
-          <a
-            href={event.registrationUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to={`/register/${event.id}`}
+            onClick={onClose}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-500 shadow-md shadow-orange-500/20 transition-all"
           >
             <span>Register Now</span>
             <ArrowRight className="w-4 h-4" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

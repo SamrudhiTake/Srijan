@@ -26,21 +26,9 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Events', path: '/events' },
+    { name: 'Register', path: '/register' },
     { name: 'About', path: '/about' },
   ];
-
-  const handleRegisterClick = (e) => {
-    e.preventDefault();
-    setIsOpen(false);
-    if (location.pathname === '/') {
-      const regSection = document.getElementById('register-cta');
-      if (regSection) {
-        regSection.scrollIntoView({ behavior: 'smooth' });
-        return;
-      }
-    }
-    navigate('/events');
-  };
 
   const isActive = (path) => {
     if (path === '/') return location.pathname === '/';
@@ -98,15 +86,6 @@ export default function Navbar() {
                 )}
               </Link>
             ))}
-
-            {/* Quick Register CTA in nav */}
-            <a
-              href="#register-cta"
-              onClick={handleRegisterClick}
-              className="text-sm font-medium text-slate-300 hover:text-amber-400 transition-colors"
-            >
-              Register
-            </a>
           </nav>
 
           {/* Action CTA Button */}
@@ -154,14 +133,6 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-
-          <a
-            href="#register-cta"
-            onClick={handleRegisterClick}
-            className="block px-3 py-2.5 rounded-lg text-base font-medium text-slate-300 hover:text-white hover:bg-white/5"
-          >
-            Register
-          </a>
 
           <div className="pt-2">
             <Link

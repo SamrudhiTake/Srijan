@@ -23,6 +23,10 @@ export const events = [
   name: "Hackathon",
   category: "Technical Competition",
   tagline: "Build. Innovate. Solve.",
+  registrationType: "team",
+  code: "HACK",
+  minTeamSize: 2,
+  maxTeamSize: 4,
 
   description:
     "A high-energy technical competition where participants transform innovative ideas into practical solutions for real-world problems.",
@@ -94,6 +98,10 @@ export const events = [
   name: "KBC Quiz",
   category: "Technical Quiz",
   tagline: "Think Fast. Answer Smart.",
+  registrationType: "individual",
+  code: "KBC",
+  minTeamSize: 1,
+  maxTeamSize: 1,
 
   description:
     "An exciting quiz competition that challenges participants on technical knowledge, logical reasoning, general awareness, and problem-solving skills.",
@@ -167,6 +175,10 @@ export const events = [
   name: "PCB Designing",
   category: "Technical Competition",
   tagline: "Design. Connect. Innovate.",
+  registrationType: "individual",
+  code: "PCB",
+  minTeamSize: 1,
+  maxTeamSize: 1,
 
   description:
     "A hands-on technical competition that challenges participants to design efficient, accurate, and practical printed circuit boards.",
@@ -241,6 +253,10 @@ export const events = [
   name: "CAD Modeling",
   category: "Technical Competition",
   tagline: "Design. Model. Create.",
+  registrationType: "individual",
+  code: "CAD",
+  minTeamSize: 1,
+  maxTeamSize: 1,
 
   description:
     "A technical design competition that challenges participants to transform concepts and engineering ideas into accurate 3D CAD models.",
@@ -315,6 +331,10 @@ export const events = [
   name: "Bridge Making",
   category: "Technical Competition",
   tagline: "Design. Build. Test.",
+  registrationType: "individual",
+  code: "BRG",
+  minTeamSize: 1,
+  maxTeamSize: 1,
 
   description:
     "A hands-on engineering challenge where participants design and construct a model bridge that combines structural strength, stability, creativity, and efficient use of materials.",
@@ -394,6 +414,10 @@ export const events = [
   name: "Circuit Making",
   category: "Technical Competition",
   tagline: "Connect. Create. Conquer.",
+  registrationType: "individual",
+  code: "CIRCUIT",
+  minTeamSize: 1,
+  maxTeamSize: 1,
 
   description:
     "A hands-on electronics challenge where participants design, assemble, and test a working circuit based on a given problem statement.",

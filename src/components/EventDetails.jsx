@@ -89,13 +89,13 @@ export default function EventDetails({ event, onOpenBrochure }) {
 
         {/* Action Buttons bar */}
         <div className="mt-8 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-          <button
-            onClick={handleRegisterClick}
+          <Link
+            to={`/register/${event.id}`}
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl text-base font-bold text-white bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-400 hover:to-orange-500 shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 transition-all duration-200"
           >
             <span>REGISTER NOW</span>
-            <ExternalLink className="w-4 h-4" />
-          </button>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
 
           <button
             onClick={handleBrochureClick}
@@ -202,15 +202,15 @@ export default function EventDetails({ event, onOpenBrochure }) {
               <span>Registration Notice</span>
             </div>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-4">
-              All registrations are processed through the official Srijan Google Form. Ensure your team details and college verification information are accurately filled.
+              Online registrations are officially open. Complete the form to reserve your spot and receive your unique Registration ID.
             </p>
-            <button
-              onClick={handleRegisterClick}
+            <Link
+              to={`/register/${event.id}`}
               className="w-full py-2.5 px-4 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/30 text-amber-300 text-xs font-semibold transition-colors flex items-center justify-center gap-1.5"
             >
-              <span>Open Google Form</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </button>
+              <span>Register Online</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
 
           {/* Coordinators placeholder if available */}

@@ -62,15 +62,13 @@ export default function CTASection() {
           {showPicker && (
             <div className="mt-8 pt-8 border-t border-white/10 max-w-2xl mx-auto text-left animate-fade-in">
               <p className="text-xs font-mono uppercase tracking-wider text-amber-400 mb-4 text-center">
-                Select an event to open its registration Google Form:
+                Select an event to open its online registration form:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {events.map((evt) => (
-                  <a
+                  <Link
                     key={evt.id}
-                    href={evt.registrationUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    to={`/register/${evt.id}`}
                     className="flex items-center justify-between p-3 rounded-xl bg-space-950/80 border border-white/10 hover:border-amber-500/50 hover:bg-space-850 transition-all group"
                   >
                     <div>
@@ -83,9 +81,9 @@ export default function CTASection() {
                     </div>
                     <div className="flex items-center gap-1 text-xs text-slate-400 group-hover:text-amber-400">
                       <span>Register</span>
-                      <ExternalLink className="w-3.5 h-3.5" />
+                      <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                     </div>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
